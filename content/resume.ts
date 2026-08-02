@@ -24,20 +24,21 @@ export type SkillGroup = {
 
 export const education: ResumeEntry[] = [
   {
-    org: "Your University",
+    org: "University of Colorado Boulder",
     title: "B.S. Mechanical Engineering",
     period: "2026 — 2030 (expected)",
-    location: "City, State",
+    location: "Boulder, CO",
     points: ["Relevant coursework will go here as you take it."],
   },
   {
-    org: "Your High School",
+    org: "Shrewsbury International School Bangkok",
     title: "High School Diploma",
-    period: "2022 — 2026",
-    location: "City, State",
+    period: "2011 — 2026",
+    location: "Bangkok, Thailand",
     points: [
-      "GPA, honors, or AP coursework — delete this line if you'd rather not list it.",
-      "Clubs and teams: robotics, FIRST, science olympiad, etc.",
+      "4.0 GPA — Academic Scholar",
+      "Leadership roles: House Captain, Varsity Volleyball Captain, Community Engagement Prefect",
+      "Clubs and Teams: Varsity Volleyball, Senior Orchestra, Senior Percussion Ensemble",
     ],
   },
 ];
@@ -58,19 +59,19 @@ export const experience: ResumeEntry[] = [
 export const skills: SkillGroup[] = [
   {
     category: "CAD & Analysis",
-    items: ["SolidWorks", "Fusion 360", "AutoCAD", "FEA (basic)"],
+    items: ["SolidWorks (learning)", "Fusion 360", "AutoCAD"],
   },
   {
     category: "Fabrication",
-    items: ["3D printing (FDM)", "Laser cutting", "Hand tools", "Soldering"],
+    items: ["3D printing", "Laser cutting", "Hand tools", "Soldering"],
   },
   {
     category: "Software",
-    items: ["Python", "MATLAB", "Excel", "Git"],
+    items: ["MATLAB (learning)", "Excel", "Git"],
   },
   {
     category: "Other",
-    items: ["Technical drawing", "GD&T (learning)", "Arduino"],
+    items: ["Technical drawing", "Arduino (learning)"],
   },
 ];
 

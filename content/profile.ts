@@ -24,9 +24,9 @@ export type Profile = {
 };
 
 export const profile: Profile = {
-  name: "Anna Ungrangsee",
+  name: "Ariana Ungrangsee",
   // Shown small above your name on the home page
-  handle: "anna.ungrangsee",
+  handle: "ariana.ungrangsee",
   // One line under your name
   role: "Mechanical Engineering",
   // The rotating/typed line on the home page. Add or remove freely.
@@ -45,17 +45,17 @@ export const profile: Profile = {
     "This site is where I keep my projects — design files, build photos, what went wrong, and what I'd do differently. It'll fill up as I go.",
   ],
 
-  email: "you@example.com",
+  email: "annaungrangsee@gmail.com",
   // Set any of these to null (or delete the line) and the link disappears.
   links: {
-    github: "https://github.com/yourusername",
-    linkedin: "https://linkedin.com/in/yourusername",
+    github: "https://github.com/AnnaUng",
+    linkedin: "https://linkedin.com/in/ariana-ungrangsee-a4b706277",
     // Drop a resume.pdf into /public, then change this to "/resume.pdf"
     resume: null,
   },
 
   // Site metadata — update once you have a real domain
-  siteUrl: "https://anna-portfolio.vercel.app",
+  siteUrl: "https://ariana-portfolio.vercel.app",
   siteDescription:
-    "Portfolio of Anna Ungrangsee — mechanical engineering projects, CAD work, and builds.",
+    "Portfolio of Ariana Ungrangsee — mechanical engineering projects, CAD work, and builds.",
 };
