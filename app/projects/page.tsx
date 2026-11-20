@@ -16,8 +16,7 @@ export default function ProjectsPage() {
         title="Projects"
         intro={
           <p>
-            Design work, builds, and things that didn&apos;t work the first
-            time. Each one has its own writeup.
+            Design work, small builds, and engineering projects. Solo, team, and client work. Some of these are class projects, some are personal, and some for clients.
           </p>
         }
       />

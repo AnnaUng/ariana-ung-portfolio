@@ -28,7 +28,8 @@ export const education: ResumeEntry[] = [
     title: "B.S. Mechanical Engineering",
     period: "2026 — 2030 (expected)",
     location: "Boulder, CO",
-    points: [""],
+    points: ["Engineering Honors Program",
+    ]
   },
   {
     org: "Shrewsbury International School Bangkok",
