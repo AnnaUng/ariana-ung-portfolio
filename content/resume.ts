@@ -45,13 +45,14 @@ export const education: ResumeEntry[] = [
 
 export const experience: ResumeEntry[] = [
   {
-    org: "Organization Name",
-    title: "Your Role",
-    period: "Summer 2025",
-    location: "City, State",
+    org: "Campus Dining and Hospitality ",
+    title: "Student Staff",
+    period: "September 2026 — present",
+    location: "Boulder, CO",
     points: [
-      "What you actually did, with a number in it if you can manage one.",
-      "Add or remove bullets freely.",
+      "Worked in a fast-paced environment, providing excellent customer service to students and staff.",
+      "Maintained cleanliness and organization of the dining area, ensuring a pleasant dining experience for all patrons.",
+      "Collaborated with team members to efficiently manage food preparation and service during peak hours.",
     ],
   },
 ];

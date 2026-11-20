@@ -56,7 +56,7 @@ export type Project = {
 
 export const projects: Project[] = [
   // ----------------------------------------------------------------
-  // EXAMPLE 1 — delete this once you have a real project to put here.
+  // PROJECT 1
   // ----------------------------------------------------------------
   {
     slug: "GEEN1400-project",
@@ -107,7 +107,7 @@ export const projects: Project[] = [
   },
 
   // ----------------------------------------------------------------
-  // EXAMPLE 2 — a minimal project, showing how little is required.
+  // PROJECT 2
   // ----------------------------------------------------------------
   {
     slug: "Design-Technology-Project",
@@ -117,14 +117,14 @@ export const projects: Project[] = [
     role: "Solo Project",
     summary:
       "A device to organize and charge electronic components for the Nintendo Switch.",
-    tags: ["ESP32", "3D printing", "Arduino", "Programming"],
+    tags: ["1-on-1 client work", "CAD", "3D printing"],
     featured: true,
     specs: [
       { label: "Timeline", value: "10 weeks" },
       { label: "Tools", value: "Fusion360, Techsoft" },
       { label: "Materials", value: "PLA, Parawood, Veneer, Stainless Steel" },
     ],
-    links: [{ label: "Full Design Process", href: "https://example.com" }],
+    links: [{ label: "Full Design Process", href: "https://drive.google.com/file/d/1cR9dRF7PsjKK1R_BgCnYQidQPwE8AN5e/view?usp=sharing" }],
     sections: [
       {
         heading: "The problem",
