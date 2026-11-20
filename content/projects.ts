@@ -59,13 +59,13 @@ export const projects: Project[] = [
   // EXAMPLE 1 — delete this once you have a real project to put here.
   // ----------------------------------------------------------------
   {
-    slug: "example-project",
+    slug: "GEEN1400-project",
     title: "PeakLink",
     year: "2026",
-    status: "concept",
+    status: "complete",
     role: "Engineering Projects Group",
     summary:
-      "This is a placeholder so you can see the layout. Copy this block, change the slug and the words, and you have a new project page.",
+      "A watch that keeps you safe in the mountains.",
     tags: ["ESP32", "3D printing", "Arduino", "Programming"],
     featured: true,
     specs: [
@@ -110,13 +110,52 @@ export const projects: Project[] = [
   // EXAMPLE 2 — a minimal project, showing how little is required.
   // ----------------------------------------------------------------
   {
-    slug: "second-example",
-    title: "Second Example",
+    slug: "Design-Technology-Project",
+    title: "Controller Display",
     year: "2025",
     status: "complete",
+    role: "Solo Project",
     summary:
-      "A project with only the required fields filled in. It still gets a working page — just a shorter one.",
-    tags: ["CAD", "Machining"],
+      "A device to organize and charge electronic components for the Nintendo Switch.",
+    tags: ["ESP32", "3D printing", "Arduino", "Programming"],
+    featured: true,
+    specs: [
+      { label: "Timeline", value: "10 weeks" },
+      { label: "Tools", value: "Fusion360, Techsoft" },
+      { label: "Materials", value: "PLA, Parawood, Veneer, Stainless Steel" },
+    ],
+    links: [{ label: "Full Design Process", href: "https://example.com" }],
+    sections: [
+      {
+        heading: "The problem",
+        body: [
+          "When gaming, the accumulation of different controllers and their respective charging cables can be a hassle. This project aimed to create a device that organizes and charges all of the controllers for the Nintendo Switch in one place.",
+          "My client struggled with disorganization and clutter in his gaming setup, which led to frustration when playing video games."
+        ],
+      },
+      {
+        heading: "Design & process",
+        body: [
+          "The deisgn process began with a client interview to understand the specific needs and preferences of the user. After gathering requirements, I created initial sketches and 3D models using Fusion360. The design was iteratively refined based on feedback from the client.",
+          "The final design included a charging dock for the controllers, cable management features, and a sleek aesthetic that matched the client's gaming setup. The device was fabricated using 3D printing and other materials to ensure durability and functionality.",
+        ],
+        images: [
+          // {
+          //   src: "/projects/sketch.jpg",
+          //   alt: "Initial hand sketch of the mechanism",
+          //   caption: "First pass, before the linkage got redesigned.",
+          // },
+        ],
+      },
+      {
+        heading: "What I learned",
+        list: [
+          "3D modeling and design for manufacturing",
+          "Client communication and presentation skills.",
+          "Time management and project planning.",
+        ],
+      },
+    ],
   },
 ];
 

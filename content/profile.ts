@@ -32,12 +32,12 @@ export const profile: Profile = {
   // The rotating/typed line on the home page. Add or remove freely.
   taglines: [
     "designing things that move",
-    "CAD, fabrication, and first principles",
-    "incoming mechanical engineering student",
+    "CAD, coding, fabrication",
+    "mechanical engineering student",
   ],
   location: "Colorado, USA",
   // Short "what I'm doing right now" — shows in the home page spec table
-  status: "Incoming freshman — open to internships & project collaborations",
+  status: "Freshman — open to internships & project collaborations",
 
   // The paragraph(s) on the About page
   bio: [

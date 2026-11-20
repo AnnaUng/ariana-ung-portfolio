@@ -28,7 +28,7 @@ export const education: ResumeEntry[] = [
     title: "B.S. Mechanical Engineering",
     period: "2026 — 2030 (expected)",
     location: "Boulder, CO",
-    points: ["Relevant coursework will go here as you take it."],
+    points: [""],
   },
   {
     org: "Shrewsbury International School Bangkok",
@@ -71,7 +71,7 @@ export const skills: SkillGroup[] = [
   },
   {
     category: "Other",
-    items: ["Technical drawing", "Arduino (learning)"],
+    items: ["Technical drawing", "Arduino"],
   },
 ];
 
