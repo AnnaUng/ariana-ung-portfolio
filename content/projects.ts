@@ -60,32 +60,32 @@ export const projects: Project[] = [
   // ----------------------------------------------------------------
   {
     slug: "example-project",
-    title: "Example Project",
+    title: "PeakLink",
     year: "2026",
     status: "concept",
-    role: "Solo project",
+    role: "Engineering Projects Group",
     summary:
       "This is a placeholder so you can see the layout. Copy this block, change the slug and the words, and you have a new project page.",
-    tags: ["Fusion 360", "3D printing", "Placeholder"],
+    tags: ["ESP32", "3D printing", "Arduino", "Programming"],
     featured: true,
     specs: [
-      { label: "Timeline", value: "4 weeks" },
-      { label: "Tools", value: "Fusion 360, Prusa MK4" },
-      { label: "Materials", value: "PLA, 6061 aluminum" },
+      { label: "Timeline", value: "8 weeks" },
+      { label: "Tools", value: "Aduino IDE, SolidWorks, ChatGPT" },
+      { label: "Materials", value: "PLA" },
     ],
     links: [{ label: "View files", href: "https://example.com" }],
     sections: [
       {
         heading: "The problem",
         body: [
-          "Start with what you were trying to solve and why it mattered. One or two short paragraphs is plenty — this is the part people actually read.",
-          "Each string in this list becomes its own paragraph.",
+          "As fans of outdoor sports, my team and I wanted to solve the problem faced by many snowboarders, skiers, and mountain bikers. There is often a skill gap between friends and family who participate in these activities together. This can lead to people being left behind on the mountains with no way of finding each other.",
+          "Our target user group was people who love the outdoors but also prioritize safety. It could be used by friends as well as families who want to keep track of their children.",
         ],
       },
       {
         heading: "Design & process",
         body: [
-          "Walk through how you approached it. Sketches, calculations, iterations, the version that failed.",
+          "The solution to this problem was PeakLink: paired watches that use GPS and compasses to calculate the relative distance and direction between users. By looking at their wrist, the user can see how far their friends are from them and they are shown which direction they should turn with an arrow. The arrow direction updates 5 times a second. This way, as they turn to face the correct direction, the watch confirms their rotation in real time. To reduce more risk, there is no need for cell service when using our project. The use of radio waves facilitates communication between watches. This also reduces the need for phones when outdoors.",
         ],
         images: [
           // {
@@ -98,9 +98,9 @@ export const projects: Project[] = [
       {
         heading: "What I learned",
         list: [
-          "Use a list when you have short takeaways rather than prose.",
-          "Delete any section you don't need — the page just skips it.",
-          "Be specific: numbers, tolerances, failure modes.",
+          "How to use GPS and Compass data in order to calculate different values.",
+          "Real-World budget management",
+          "Team management and work delegation.",
         ],
       },
     ],
