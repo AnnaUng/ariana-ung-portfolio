@@ -91,12 +91,12 @@ export const projects: Project[] = [
         ],
         images: [
           {
-            src: "/projects/FinalWatch.jpg",
+            src: "/projects/FinalWatch.JPG",
             alt: "Watch at DesignExpo",
             caption: "V1 of the watch at CU Design Expo 2026",
           },
           {
-            src: "/projects/Breadboard.jpg",
+            src: "/projects/Breadboard.JPG",
             alt: "Circuit breadboard prototype",
             caption: "Circuit breadboard prototype used for testing the components and their compatibility.",
           }
