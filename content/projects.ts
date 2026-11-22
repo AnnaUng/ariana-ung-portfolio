@@ -86,6 +86,8 @@ export const projects: Project[] = [
         heading: "Design & process",
         body: [
           "The solution to this problem was PeakLink: paired watches that use GPS and compasses to calculate the relative distance and direction between users. By looking at their wrist, the user can see how far their friends are from them and they are shown which direction they should turn with an arrow. The arrow direction updates 5 times a second. This way, as they turn to face the correct direction, the watch confirms their rotation in real time. To reduce more risk, there is no need for cell service when using our project. The use of radio waves facilitates communication between watches. This also reduces the need for phones when outdoors.",
+          "As lead programmer, my biggest responsibility was to write the code. At the beginning of the project, I researched the possible components that would work for the device and made sure they were all compatible. From there, I worked on budget management so we could have good quality components while staying within the budget given. I was also responsible for prototyping the circuit using breadboards and testing the compatibility of components once purchased. Once the prototype boards were soldered, I wrote an I2C test to make sure the hardware connections were stable. I consistently worked on the code as the project progressed, improving the aesthetics, functionality, and efficiency. Coding required lots of outdoor testing while making small changes in order to calibrate the distances and the relative direction between the devices. Once everything was manufactured and the code was running, I contributed to testing and analysis by creating a spreadsheet and collecting the data.",
+          "At the beginning of the project, I had close to no experience with circuits or programming. Using online resources and artificial intelligence, I was able to teach myself how to program the GPS, compass, LoRa module, and the OLED to work together. I have grown much more comfortable with electronics and using them to build complex systems.",
         ],
         images: [
           // {
@@ -136,7 +138,7 @@ export const projects: Project[] = [
       {
         heading: "Design & process",
         body: [
-          "The deisgn process began with a client interview to understand the specific needs and preferences of the user. After gathering requirements, I created initial sketches and 3D models using Fusion360. The design was iteratively refined based on feedback from the client.",
+          "The design process began with a client interview to understand the specific needs and preferences of the user. After gathering requirements, I created initial sketches and 3D models using Fusion360. The design was iteratively refined based on feedback from the client.",
           "The final design included a charging dock for the controllers, cable management features, and a sleek aesthetic that matched the client's gaming setup. The device was fabricated using 3D printing and other materials to ensure durability and functionality.",
         ],
         images: [
