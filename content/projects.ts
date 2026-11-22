@@ -90,11 +90,16 @@ export const projects: Project[] = [
           "At the beginning of the project, I had close to no experience with circuits or programming. Using online resources and artificial intelligence, I was able to teach myself how to program the GPS, compass, LoRa module, and the OLED to work together. I have grown much more comfortable with electronics and using them to build complex systems.",
         ],
         images: [
-          // {
-          //   src: "/projects/sketch.jpg",
-          //   alt: "Initial hand sketch of the mechanism",
-          //   caption: "First pass, before the linkage got redesigned.",
-          // },
+          {
+            src: "/projects/FinalWatch.jpg",
+            alt: "Watch at DesignExpo",
+            caption: "V1 of the watch at CU Design Expo 2026",
+          },
+          {
+            src: "/projects/Breadboard.jpg",
+            alt: "Circuit breadboard prototype",
+            caption: "Circuit breadboard prototype used for testing the components and their compatibility.",
+          }
         ],
       },
       {
